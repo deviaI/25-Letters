@@ -19,3 +19,6 @@ The third File, 5LWords_c.c, reads from the reduced Word List and converts the W
 The fourth file, 5LWords_d.c, reads the Matrix and begins running through possible permuations of rows and checking via a comically long boolean expressian if any two rows share any letters. If it finds a solution, the 5 indizes of the solution words are written to a text file
 
 The fifth file, 5LWords_e.c, reads the solution text file as well as the word list and fetches the corresponding words for the indizes, from the word list, and prints the solutions in another text file.
+
+
+#This Code was written for Fun. It's janky uncommented, and probably an absolute pain for anyone to change or modify because of that. I will likely improve it in the future and put some comments in. 
