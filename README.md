@@ -24,3 +24,8 @@ The fifth file, 5LWords_e.c, reads the solution text file as well as the word li
 #This Code was written for Fun. It's janky uncommented, and probably an absolute pain for anyone to change or modify because of that. I will likely improve it in the future and put some comments in. 
 
 Because I'm lazy the length of the reduced Word list, which is needed for loop control in Files three, four and five, is not dynamic. It just checked the length of the file in TExt Editor and set the value statically. If you want to run your own Wordlist, do the same and change the value of the variable int n in the last 3 files
+
+
+Words Alpha Text File taken from https://github.com/dwyl/english-words
+
+Valid Wordle Words Text File taken from https://github.com/dwyl/english-words
