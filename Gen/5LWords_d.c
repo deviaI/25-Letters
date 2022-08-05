@@ -20,7 +20,6 @@ int main(){
     int iZ , iF;
     printf("Start Loop\n");
     scanf("%i", &iZ);
-    //Ran until 1912
     printf("End Loop\n");
     scanf("%i", &iF);
     for(int i=iZ;i<iF;i++){
