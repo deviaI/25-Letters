@@ -1,0 +1,1 @@
+This code has the correct source file and file length "n" to run the word_aplha.txt List with some of the particularly silly Solutions words that keep coming up removed (e.g. fldxt, which is in a huge number of solution for the raw list)
