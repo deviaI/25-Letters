@@ -28,4 +28,4 @@ Because I'm lazy the length of the reduced Word list, which is needed for loop c
 
 Words Alpha Text File taken from https://github.com/dwyl/english-words
 
-Valid Wordle Words Text File taken from https://github.com/dwyl/english-words
+Valid Wordle Words Text File taken from https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93
