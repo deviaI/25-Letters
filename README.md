@@ -12,7 +12,7 @@ For ease of use the Code is split into six Files
 
 The first File, 5LWords.c, reads in the Word List, and rewrites it to a new Textfile having removed all Words which contain duplicate letters or are not 5 Letters long
 
-The Second File, 5LWords_b.c, is a run time optimisation method if one only cares about the existence of A solution in a given List of words. It further reduces the list to only the first occurance of any one letter combination (So of the Words "magic" and "gamic", only "gamic" would be kept. Words with identical letters in different order are trivially excahangable in solution, so this doesn't affect the presence of solutions, merely the amount)
+The Second File, 5LWords_b.c, is a run time optimisation method if one only cares about the existence of A solution in a given List of words. It further reduces the list to only the first occurance of any one letter combination (So of the Words "magic" and "gamic", only "gamic" would be kept. Words with identical letters in different order are trivially interchangeable in solution, so this doesn't affect the presence of solutions, merely the amount)
 
 The third File, 5LWords_c.c, reads from the reduced Word List and converts the Word List to a Boolean Matrix with 26 Columns and as many Rows as words. This is done for ease and simplicity of comparison between different words. If a Word contains a letter, the corresponding cell in the Matrix is True, if it does not the Cell is false. E.g. if the second Word were "bcdef" the second, third, fourth, fith and sixth Cell in the second Matrix row would be True, with the other 21 cells in that row being False. The Matrix is stored on a .txt File
 
